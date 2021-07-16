@@ -314,3 +314,25 @@ body {
 	}
 }
 
+@media (max-width: 900px){
+	.row{
+	
+		height: 100%;
+		display: inline ;
+	}
+		.column{
+			width: 70%;
+			height: 100%;
+			float: none;
+		}
+		.column img{
+			height: 300px;
+			width: 100%;
+		}
+
+		nav{
+			position: sticky;
+			left: 0;
+			
+		}
+}
