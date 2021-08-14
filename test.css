@@ -73,7 +73,11 @@
 }
 
 
-
+.but{
+	bottom: 0;
+	right:0;
+	position: fixed;
+}
 
 .box3 div{
 	width: 39%;
