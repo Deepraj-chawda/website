@@ -1,0 +1,102 @@
+.row{
+	width: 86%;
+	height: auto;
+	display: inline-flex;
+	margin: 5.5em;
+	padding: 1em;
+	box-sizing: border-box;
+}
+
+.box1, .box2, .box3 {
+	height: 600px;
+	width:33.33%;
+	background-color: #fa6935;
+	margin: 1em;
+	padding: 1em;
+	box-sizing: border-box;
+}
+
+
+.con1 { 
+    width: 99%;
+    height: 46%;
+    background-color: cyan;
+    margin: -1em 0em 6em -1em;
+    padding: 0em 0em 0em 0em;
+    box-sizing: border-box;
+}
+.box1{
+	display: inline-block;
+}
+.up {
+    height: 53%;
+    width: 100%;
+    display: flex;
+}
+.con2{
+    width: 89%;
+    height: 85%;
+    background-color: cyan;
+    margin: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+}
+.a1{
+	   width: 89%;
+    height: 45%;
+    background-color: cyan;
+    margin: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+}
+}
+.top{
+	top: 0;
+}
+.bottom{
+	bottom: 0;
+}
+.right{
+	right: 0;
+}
+.left{
+	left: 0;
+}
+
+.bottom.right {
+    margin: 1em;
+    padding: 6px;
+}
+.top.left {
+    margin: 1em;
+    padding: 6px;
+}
+
+
+
+
+.box3 div{
+	width: 39%;
+	height: 45%;
+	background-color: cyan;
+	position: absolute;
+}
+.box3{
+	position: relative;
+}
+
+@media screen and (max-width:768px){
+	.row{
+		display: inline-block;
+		
+		
+	}
+	.box1, .box2, .box3{
+		width: 80vh;
+		height: 50vw;
+		margin: 0px 0px 20px 0px;
+
+
+	}
+
+}
